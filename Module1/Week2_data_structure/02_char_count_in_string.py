@@ -1,7 +1,7 @@
 # Exercise2_count_char_in_string
-def count_chars(string):
+def character_count(string):
     result = {}
-    string = string.lower()
+    #string = string.lower()
     for char in string:
         if char in result:
             result[char] += 1
@@ -9,5 +9,5 @@ def count_chars(string):
             result[char] = 1
     return result
 
-word = 'Happiness'
-print(count_chars(word))
+assert character_count("Baby") == {'B':1,'a': 1,'b':1,'y':1}
+print(character_count ('smiles'))

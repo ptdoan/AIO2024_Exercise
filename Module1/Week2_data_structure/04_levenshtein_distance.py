@@ -1,7 +1,7 @@
 # Exercise4_levenshtein_distance
 import numpy
 
-def levenshtein_distance(token1, token2):
+def levenshtein_distance(token1,token2):
   distances = numpy.zeros((len(token1) + 1, len(token2) + 1))
 
   for t1 in range(len(token1) + 1):
@@ -32,4 +32,5 @@ def levenshtein_distance(token1, token2):
 
   return distances[len(token1)][len(token2)]
 
-print(levenshtein_distance('halo', 'hello'))
+assert levenshtein_distance("hi","hello") == 4.0
+print(levenshtein_distance("hola"," hello"))
