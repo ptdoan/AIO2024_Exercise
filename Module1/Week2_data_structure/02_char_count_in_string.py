@@ -2,7 +2,6 @@
 def character_count(string):
 
     result = {}
-
     for char in string:
         if char in result:
             result[char] += 1
