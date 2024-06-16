@@ -8,6 +8,9 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+.sonarlint/
+.vscode/
+.vs/
 build/
 develop-eggs/
 dist/
