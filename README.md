@@ -1,8 +1,6 @@
 
 # Project Title: AIO2024-Exercise
 
-# Project Title: AIO2024-Exercise
-
 A brief description of what this project does and who it's for.
 
 ## Getting Started
